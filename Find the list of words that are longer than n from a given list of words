@@ -1,0 +1,13 @@
+list=[]
+x=int(input("Enter a number: "))
+for i in range(x):
+    str=input()
+    list.append(str)
+print(list)
+li=[]
+n = int(input("Enter a number: "))
+for j in list:
+    if len(j)>n:
+        li.append(j)
+print(li)
+
